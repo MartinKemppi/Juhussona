@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd621b6c-a22c-4931-aa8a-a0e80babc542" name="Changes" comment="">
+    <list default="true" id="dd621b6c-a22c-4931-aa8a-a0e80babc542" name="Changes" comment="[#187304230] - kommentaarid on lisatud">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sonad.html" beforeDir="false" afterPath="$PROJECT_DIR$/sonad.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarkvara_script.js" beforeDir="false" afterPath="$PROJECT_DIR$/tarkvara_script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,8 +64,21 @@
       <updated>1711105418056</updated>
       <workItem from="1711105419536" duration="3645000" />
       <workItem from="1711109101015" duration="28000" />
-      <workItem from="1711366452534" duration="2933000" />
+      <workItem from="1711366452534" duration="4974000" />
     </task>
+    <task id="LOCAL−00001" summary="[#187304230] - kommentaarid on lisatud">
+      <created>1711369797537</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1711369797537</updated>
+    </task>
+    <task id="LOCAL−00002" summary="[#187304230] - kommentaarid on lisatud">
+      <created>1711369890094</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1711369890094</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,5 +94,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[#187304230] - kommentaarid on lisatud" />
+    <option name="LAST_COMMIT_MESSAGE" value="[#187304230] - kommentaarid on lisatud" />
   </component>
 </project>
