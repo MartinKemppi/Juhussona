@@ -98,6 +98,7 @@ function kontrollimine() {
     }
 }
 
+//loome funktsioon mis loob Vene keelsest massiivist sõna
 function randomSynaVene() {
     //saame juhuslik number sonast
     Index = Math.floor(Math.random() * synad.length);
@@ -109,6 +110,8 @@ function randomSynaVene() {
     document.getElementById("vastus").innerText = "";
 }
 
+
+//funktsioon mis kontrollib vene-eesti sisestatud tähendused ja õigsust
 function kontrollimineVene() {
     //saame sisestatud vastus
     let sisvatus = document.getElementById("kontroll1").value.trim().toLowerCase();
