@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd621b6c-a22c-4931-aa8a-a0e80babc542" name="Changes" comment="[#187304230] - kommentaarid on lisatud JS koodis">
+    <list default="true" id="dd621b6c-a22c-4931-aa8a-a0e80babc542" name="Changes" comment="[#187304230] - CSS kujunduse loomine ja ühendamine HTML-ga">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sonad.html" beforeDir="false" afterPath="$PROJECT_DIR$/sonad.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +64,7 @@
       <updated>1711105418056</updated>
       <workItem from="1711105419536" duration="3645000" />
       <workItem from="1711109101015" duration="28000" />
-      <workItem from="1711366452534" duration="6330000" />
+      <workItem from="1711366452534" duration="8278000" />
     </task>
     <task id="LOCAL−00001" summary="[#187304230] - kommentaarid on lisatud">
       <created>1711369797537</created>
@@ -97,7 +96,19 @@
       <option name="presentableId" value="LOCAL−00005" />
       <updated>1711373090848</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL−00006" summary="[#187304230] - CSS kujunduse loomine ja ühendamine HTML-ga">
+      <created>1711374111929</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1711374111929</updated>
+    </task>
+    <task id="LOCAL−00007" summary="[#187304230] - CSS kujunduse loomine ja ühendamine HTML-ga">
+      <created>1711374378809</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1711374378809</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +130,7 @@
     <MESSAGE value="[#187304230] - tabelid on loodud" />
     <MESSAGE value="[#187304230] - funktsioonid e. kontrollimine EE-RU ja RU-EE kirjutatud" />
     <MESSAGE value="[#187304230] - kommentaarid on lisatud JS koodis" />
-    <option name="LAST_COMMIT_MESSAGE" value="[#187304230] - kommentaarid on lisatud JS koodis" />
+    <MESSAGE value="[#187304230] - CSS kujunduse loomine ja ühendamine HTML-ga" />
+    <option name="LAST_COMMIT_MESSAGE" value="[#187304230] - CSS kujunduse loomine ja ühendamine HTML-ga" />
   </component>
 </project>
