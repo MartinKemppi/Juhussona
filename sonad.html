@@ -6,19 +6,62 @@
     <script src="tarkvara_script.js"></script>
 </head>
 <body>
-
-<h1>Tarkvara sõnad</h1>
-<input type="button" value="Juhuslik sõna" onclick="randomSyna()">
-<input type="button" value="Järgmine sõna" onclick="nextWord()">
-<br><br>
-<div id="random-syna"></div>
-<br><br>
-<label for="kontroll">Kirjuta vene keeles</label>
-<input type="text" id="kontroll">
-<input type="submit" value="Kontrolli" onclick="kontrollimine()">
-<br><br>
-<div id="vastus"></div>
-<br>
+<table border="1">
+    <tr>
+        <td>
+            <h1>Eesti-vene tarkvara sõnade test</h1>
+        </td>
+        <td>
+            <input type="button" value="Juhuslik sõna" onclick="randomSyna()">
+        </td>
+        <td>
+            <input type="button" value="Järgmine sõna" onclick="nextWord()">
+        </td>
+        <td>
+            <div id="random-syna"></div>
+        </td>
+        <td>
+            <label for="kontroll">Kirjuta vene keeles</label>
+            <input type="text" id="kontroll">
+        </td>
+        <td>
+            <input type="submit" value="Kontrolli" onclick="kontrollimine()">
+        </td>
+        <td>
+            <div id="vastus"></div>
+        </td>
+        <td>
+            <div id="oigevale"></div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <h1>Vene-eesti tarkvara sõnade test</h1>
+        </td>
+        <td>
+            <input type="button" value="Juhuslik sõna" onclick="randomSynaVene()">
+        </td>
+        <td>
+            <input type="button" value="Järgmine sõna" onclick="nextWord()">
+        </td>
+        <td>
+            <div id="random-syna1"></div>
+        </td>
+        <td>
+            <label for="kontroll">Kirjuta vene keeles</label>
+            <input type="text" id="kontroll1">
+        </td>
+        <td>
+            <input type="submit" value="Kontrolli" onclick="kontrollimineVene()">
+        </td>
+        <td>
+            <div id="vastus1"></div>
+        </td>
+        <td>
+            <div id="oigevale1"></div>
+        </td>
+    </tr>
+</table>
 
 </body>
 </html>
