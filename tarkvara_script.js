@@ -86,6 +86,12 @@ function nextWord() {
     randomSyna();
 }
 
+//teeb järgmist sõna ja tühistab väli sõnade sisestamiseks
+function nextWordVene() {
+    document.getElementById("kontroll").value = "";
+    randomSynaVene();
+}
+
 function kontrollimine() {
     //saame sisestatud vastus
     let sisvatus = document.getElementById("kontroll").value.trim().toLowerCase();
