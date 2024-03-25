@@ -1,4 +1,4 @@
-//loome indeksi
+//loome indeksi numbri
 let Index = -1;
 //loome massiivid sonad ja sonade tahendus
 const synad = [
