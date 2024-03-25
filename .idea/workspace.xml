@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd621b6c-a22c-4931-aa8a-a0e80babc542" name="Changes" comment="">
+    <list default="true" id="dd621b6c-a22c-4931-aa8a-a0e80babc542" name="Changes" comment="[#187304230] - kommentaarid on lisatud JS koodis">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sonad.html" beforeDir="false" afterPath="$PROJECT_DIR$/sonad.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,13 +18,14 @@
       <list>
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="HTML/JS_Tarkvara_Sonade_Kontroll" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,6 +45,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "list.type.of.created.stylesheet": "CSS",
     "settings.editor.selected.configurable": "web-ide.project.structure",
     "vue.rearranger.settings.migration": "true"
   }
@@ -62,8 +65,39 @@
       <updated>1711105418056</updated>
       <workItem from="1711105419536" duration="3645000" />
       <workItem from="1711109101015" duration="28000" />
-      <workItem from="1711366452534" duration="2933000" />
+      <workItem from="1711366452534" duration="6330000" />
     </task>
+    <task id="LOCAL−00001" summary="[#187304230] - kommentaarid on lisatud">
+      <created>1711369797537</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1711369797537</updated>
+    </task>
+    <task id="LOCAL−00002" summary="[#187304230] - kommentaarid on lisatud">
+      <created>1711369890094</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1711369890094</updated>
+    </task>
+    <task id="LOCAL−00003" summary="[#187304230] - tabelid on loodud">
+      <created>1711372774313</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1711372774313</updated>
+    </task>
+    <task id="LOCAL−00004" summary="[#187304230] - funktsioonid e. kontrollimine EE-RU ja RU-EE kirjutatud">
+      <created>1711372821436</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1711372821436</updated>
+    </task>
+    <task id="LOCAL−00005" summary="[#187304230] - kommentaarid on lisatud JS koodis">
+      <created>1711373090838</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1711373090848</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,5 +113,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[#187304230] - kommentaarid on lisatud" />
+    <MESSAGE value="[#187304230] - tabelid on loodud" />
+    <MESSAGE value="[#187304230] - funktsioonid e. kontrollimine EE-RU ja RU-EE kirjutatud" />
+    <MESSAGE value="[#187304230] - kommentaarid on lisatud JS koodis" />
+    <option name="LAST_COMMIT_MESSAGE" value="[#187304230] - kommentaarid on lisatud JS koodis" />
   </component>
 </project>

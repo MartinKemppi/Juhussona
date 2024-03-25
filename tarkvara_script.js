@@ -97,3 +97,29 @@ function kontrollimine() {
         document.getElementById("oigevale").innerText = 'Tähendus on vale';
     }
 }
+
+//loome funktsioon mis loob Vene keelsest massiivist sõna
+function randomSynaVene() {
+    //saame juhuslik number sonast
+    Index = Math.floor(Math.random() * synad.length);
+    //määrame sõna massiivist indkes numbriga
+    document.getElementById("random-syna1").innerText = synadetahendus[Index];
+
+    //teeb sõnade lünkad tühjaks
+    document.getElementById("oigevale").innerText = "";
+    document.getElementById("vastus").innerText = "";
+}
+
+
+//funktsioon mis kontrollib vene-eesti sisestatud tähendused ja õigsust
+function kontrollimineVene() {
+    //saame sisestatud vastus
+    let sisvatus = document.getElementById("kontroll1").value.trim().toLowerCase();
+
+    //kontrollime kas on sisestatud tekst on korrektne või vale
+    if (Index !== -1 && sisvatus === synad[Index]) {
+        document.getElementById("oigevale1").innerText = 'Tähendus on õige';
+    } else {
+        document.getElementById("oigevale1").innerText = 'Tähendus on vale';
+    }
+}
