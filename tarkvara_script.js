@@ -1,4 +1,6 @@
+//loome indeksi
 let Index = -1;
+//loome massiivid sonad ja sonade tahendus
 const synad = [
     'teostus',
     'algoritm',
@@ -68,20 +70,27 @@ const synadetahendus = [
 ];
 
 function randomSyna() {
+    //saame juhuslik number sonast
     Index = Math.floor(Math.random() * synad.length);
+    //määrame sõna massiivist indkes numbriga
     document.getElementById("random-syna").innerText = synad[Index];
+
+    //teeb sõnade lünkad tühjaks
     document.getElementById("oigevale").innerText = "";
     document.getElementById("vastus").innerText = "";
 }
 
+//teeb järgmist sõna ja tühistab väli sõnade sisestamiseks
 function nextWord() {
     document.getElementById("kontroll").value = "";
     randomSyna();
 }
 
 function kontrollimine() {
+    //saame sisestatud vastus
     let sisvatus = document.getElementById("kontroll").value.trim().toLowerCase();
 
+    //kontrollime kas on sisestatud tekst on korrektne või vale
     if (Index !== -1 && sisvatus === synadetahendus[Index]) {
         document.getElementById("oigevale").innerText = 'Tähendus on õige';
     } else {
